@@ -232,6 +232,7 @@ const pintarFooter = () => {
     alert("gracias por su compra");
   });
 };
+
 const bg = () => {
   if (Object.keys(carrito).length == 0) {
     cartContainer.classList.add("bg-image");
